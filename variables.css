@@ -1,0 +1,6 @@
+:root {
+  --audon-yellow: #fab507;
+  --audon-orange: #ff8a00;
+  --audon-red: #ff3401;
+  --audon-gradient: linear-gradient(to top, var(--audon-red), var(--audon-orange), var(--audon-yellow))
+}

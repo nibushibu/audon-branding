@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audon Branding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/open-props" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/open-props/normalize.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/open-props/sizes.min.css" />
+    <link rel="stylesheet" href="./variables.css" />
+    <style>
+      body {
+        font-family: 'Manrope', sans-serif;
+        display: grid;
+        place-content: center;
+        padding: var(--size-7);
+        gap: var(--size-7);
+      }
+      .c-palette {
+        background: var(--audon-gradient);
+        width: var(--size-15);
+        height: var(--size-10);
+        border-radius: var(--radius-3);
+        display: grid;
+        place-content: center;
+        color: var(--gray-0);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Audon Branding</h1>
+    <h2>Wordmark</h2>
+    <img
+      src="./audon-wordmark-black-text-isolated.svg"
+      width="400"
+      height="200"
+      alt=""
+      decoding="async"
+    />
+    <img
+      src="./audon-wordmark-white-text-isolated.svg"
+      width="400"
+      height="200"
+      alt=""
+      decoding="async"
+    />
+    <h2>Mark only</h2>
+    <img
+      src="./audon-logo-orange-isolated.svg"
+      alt=""
+      width="200"
+      height="200"
+      decoding="async"
+    />
+    <img
+      src="./audon-logo-black-isolated.svg"
+      alt=""
+      width="200"
+      height="200"
+      decoding="async"
+    />
+    <img
+      src="./audon-logo-white-isolated.svg"
+      alt=""
+      width="200"
+      height="200"
+      decoding="async"
+    />
+    <h2>Color</h2>
+    <img
+      src="./audon-branding-color.svg"
+      width="400"
+      height="400"
+      alt=""
+      decoding="async"
+    />
+    <h3>CSS Variable</h3>
+    <div class="c-palette" style="background: var(--audon-gradient)">
+      <code>var(--audon-gradient)</code>
+    </div>
+    <div class="c-palette" style="background: var(--audon-yellow)">
+      <code>var(--audon-yellow)</code>
+    </div>
+    <div class="c-palette" style="background: var(--audon-orange)">
+      <code>var(--audon-orange)</code>
+    </div>
+    <div class="c-palette" style="background: var(--audon-red)">
+      <code>var(--audon-red)</code>
+    </div>
+  </body>
+</html>
