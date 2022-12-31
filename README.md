@@ -2,6 +2,8 @@
 
 Branding for [Audon](https://audon.space)
 
+![](./audon-logo-concept.svg)
+
 ## Wordmark
 
 ![](./audon-wordmark-black-text-isolated.svg)
@@ -18,3 +20,10 @@ Branding for [Audon](https://audon.space)
 ## Color
 
 ![](./audon-branding-color.svg)
+
+## Font 
+
+Manrope ExtraBold
+https://fonts.google.com/specimen/Manrope
+
+Most likely the same font as Mastodon Branding.
